@@ -1,4 +1,5 @@
-# Robotics by Professor [Tony Dear](https://www.engineering.columbia.edu/faculty/tony-dear)
+# Robotics
+Projects created by Professor [Tony Dear](https://www.engineering.columbia.edu/faculty/tony-dear) for Computational Aspects of Robotics
 
 1. Path Planning (Bug1 and Bug2)
     - Brief introduction on the general concept of Motion Planning can be found [here](https://en.wikipedia.org/wiki/Motion_planning#:~:text=Motion%20planning%2C%20also%20path%20planning,animation%2C%20robotics%20and%20computer%20games.)
