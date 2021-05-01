@@ -12,6 +12,8 @@
         
 3. Navigation (Generalized Voronoi Diagram Construction with Brushfire)
     - High level concept on GVD can be found [here](https://www.cs.columbia.edu/~pblaer/projects/path_planner/)
+    - GVD is constructed by brushfire (also called wavefront or grassfire) algorithm. This lets you easily find the collinding boundaries between the obstacles where GVD is drawn.
+    - Use gradient ascent so that the robot reaches the goal.
 
 5. Non-Euclidean Probabilistic Roadmap 
 6. Particle Filter Localization 
