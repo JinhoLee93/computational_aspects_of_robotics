@@ -6,7 +6,9 @@
     - Bug1
         - Bug1 is an exhaustive saerch algorithm, meaning the robot proceeds to find the goal after it completes circumnavigating the obstacles in the environment.
         - The robot fully circumnavigates the boundaries of the obstacles once and it finds the closest point to the next obstacle or the goal before it moves on. 
-        - 
+    - Bug2
+        - Bug2 is a reinforced algorithm of Bug1. It still follows the boundaries of the obstacles to find the goal, yet there is one more concept added called "M-Line," which signifies the linear line that connects the start point directly to the goal.
+        - Bug2 is "not" an exhaustive search since two distances, d_(reached) and d_(followed), inform the robot of the leave and arrive points on each obstacle.
 3. Navigation (GVD Construction with Brushfire)
 4. Non-Euclidean Probabilistic Roadmap 
 5. Particle Filter Localization 
