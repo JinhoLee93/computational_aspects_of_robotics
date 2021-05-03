@@ -21,7 +21,11 @@ Projects created by Professor [Tony Dear](https://www.engineering.columbia.edu/f
     - The scaffolding code was gracefully provided by Professor [Tony Dear](https://www.engineering.columbia.edu/faculty/tony-dear)
     - Just like most PRMs, the PRM here works as it samples the given number of sample points and connects them.
     - The connections between the sample points **must** not collide with any obstacles. Therefore, a collision detection algorithm was deployed.
-    - As collision detection takes very significant part of the PRM, on what standard the PRM detects collisions must be taken into consideration. Here, [NeareastNeighbors](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.NearestNeighbors.html) is used so that each sample point is evaluated by the number of its neighbors in the vicinity.
-    - 
+    - As collision detection takes very significant part of the PRM, on what standard the PRM detects collisions must be taken into consideration. Here, [NeareastNeighbors](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.NearestNeighbors.html) is used so that each sample point is evaluated by the number of its neighbors in the vicinity. When a collision is detected, resample the points in it.
+    - Since the arm is in a toroidal space, change its toroidal coordinate into Euclidean workspace coordinate.
+    - You can find the result [here](https://www.youtube.com/watch?v=k7dJsFfELGA&ab_channel=JinhoLee)
+
 4. Particle Filter Localization 
+    - High level description of Particle Filter can be found [here](https://en.wikipedia.org/wiki/Particle_filter#:~:text=Particle%20filtering%20uses%20a%20set,can%20take%20any%20form%20required.) and of Robotics Localization [here](https://en.wikipedia.org/wiki/Robot_navigation)
+    - 
 8. Learn and Predict Inverse Kinematics (Neural Network)
