@@ -18,6 +18,10 @@ Projects created by Professor [Tony Dear](https://www.engineering.columbia.edu/f
 
 3. Non-Euclidean Probabilistic Roadmap (PRM)
     - Brief introduction on the PRM can be found [here](http://www.cs.columbia.edu/~allen/F15/NOTES/Probabilisticpath.pdf) 
+    - The scaffolding code was gracefully provided by Professor [Tony Dear](https://www.engineering.columbia.edu/faculty/tony-dear)
+    - Just like most PRMs, the PRM here works as it samples the given number of sample points and connects them.
+    - The connections between the sample points **must** not collide with any obstacles. Therefore, a collision detection algorithm was deployed.
+    - As collision detection takes very significant part of the PRM, on what standard the PRM detects collisions must be taken into consideration. Here, [NeareastNeighbors](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.NearestNeighbors.html) is used so that each sample point is evaluated by the number of its neighbors in the vicinity.
     - 
 4. Particle Filter Localization 
 8. Learn and Predict Inverse Kinematics (Neural Network)
