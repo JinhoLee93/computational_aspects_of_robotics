@@ -26,6 +26,6 @@ Projects created by Professor [Tony Dear](https://www.engineering.columbia.edu/f
     - You can find the result [here](https://www.youtube.com/watch?v=k7dJsFfELGA&ab_channel=JinhoLee)
 
 4. Particle Filter Localization 
-    - High level description of Particle Filter can be found [here](https://en.wikipedia.org/wiki/Particle_filter#:~:text=Particle%20filtering%20uses%20a%20set,can%20take%20any%20form%20required.) and of Robotics Localization [here](https://en.wikipedia.org/wiki/Robot_navigation)
+    - High level description of Particle Filter can be found [here](https://en.wikipedia.org/wiki/Particle_filter#:~:text=Particle%20filtering%20uses%20a%20set,can%20take%20any%20form%20required.) and that of Robotics Localization [here](https://en.wikipedia.org/wiki/Robot_navigation)
     - 
 8. Learn and Predict Inverse Kinematics (Neural Network)
