@@ -27,5 +27,12 @@ Projects created by Professor [Tony Dear](https://www.engineering.columbia.edu/f
 
 4. Particle Filter Localization 
     - High level description of Particle Filter can be found [here](https://en.wikipedia.org/wiki/Particle_filter) and that of Robotics Localization [here](https://en.wikipedia.org/wiki/Robot_navigation)
-    - 
-8. Learn and Predict Inverse Kinematics (Neural Network)
+    - The skeleton code was taken from [PythonRobotics](https://pythonrobotics.readthedocs.io/en/latest/modules/localization.html#particle-filter-localization)
+    - Filter mechanism is broken into three steps, which resemble neural networks.
+        - Predict
+            - This step is built around [Kalman Filter](https://en.wikipedia.org/wiki/Kalman_filter)
+        - Update
+            - Using the prediction already calculated and the information the robot receives from the landmarks around it. There is a huge spike on error meter at the beginning, but this behavior is expected since, first, the robot doesn't have any prior information about where it is, and, second, it the landmark information is highly limited.
+        - Resample
+            - 
+5. Learn and Predict Inverse Kinematics (Neural Network)
