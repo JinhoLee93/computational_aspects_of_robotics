@@ -1,7 +1,7 @@
 # Computational Aspects of Robotics
 Projects created by Professor [Tony Dear](https://www.engineering.columbia.edu/faculty/tony-dear) for Computational Aspects of Robotics
 
-**1. Path Planning (Bug1 and Bug2)**
+1. Path Planning (Bug1 and Bug2)
     - Brief introduction on the general concept of Motion Planning can be found [here](https://en.wikipedia.org/wiki/Motion_planning#:~:text=Motion%20planning%2C%20also%20path%20planning,animation%2C%20robotics%20and%20computer%20games.)
     - Bug1 and Bug2 are two of the most fundamental path planning algorithms in robotics.
     - Bug1
@@ -11,12 +11,12 @@ Projects created by Professor [Tony Dear](https://www.engineering.columbia.edu/f
         - Bug2 is a reinforced algorithm of Bug1. It still follows the boundaries of the obstacles to find the goal, yet there is one more concept added called "M-Line," which signifies the linear line that connects the start point directly to the goal.
         - Bug2 is "not" an exhaustive search since two distances, d_(reached) and d_(followed), inform the robot of the leave and arrive points on each obstacle.
         
-**2. Navigation (Generalized Voronoi Diagram (GVD) Construction with Brushfire)**
+2. Navigation (Generalized Voronoi Diagram (GVD) Construction with Brushfire)
     - High level concept on GVD can be found [here](https://www.cs.columbia.edu/~pblaer/projects/path_planner/)
     - GVD is constructed by brushfire (also called wavefront or grassfire) algorithm. This lets you easily find the collinding boundaries between the obstacles where GVD is drawn.
     - Use gradient ascent for the robot to reache the goal following the GVD.
 
-**3. Non-Euclidean Probabilistic Roadmap (PRM)**
+3. Non-Euclidean Probabilistic Roadmap (PRM)
     - Brief introduction on the PRM can be found [here](http://www.cs.columbia.edu/~allen/F15/NOTES/Probabilisticpath.pdf) 
     - The scaffolding code was gracefully provided by Professor [Tony Dear](https://www.engineering.columbia.edu/faculty/tony-dear)
     - Just like most PRMs, the PRM here works as it samples the given number of sample points and connects them.
@@ -25,7 +25,7 @@ Projects created by Professor [Tony Dear](https://www.engineering.columbia.edu/f
     - Since the arm is in a toroidal space, change its toroidal coordinate into Euclidean workspace coordinate.
     - You can find the result [here](https://www.youtube.com/watch?v=k7dJsFfELGA&ab_channel=JinhoLee)
 
-**4. Particle Filter Localization **
+4. Particle Filter Localization
     - High level description of Particle Filter can be found [here](https://en.wikipedia.org/wiki/Particle_filter) and that of Robotics Localization [here](https://en.wikipedia.org/wiki/Robot_navigation)
     - The skeleton code was taken from [PythonRobotics](https://pythonrobotics.readthedocs.io/en/latest/modules/localization.html#particle-filter-localization)
     - Filter mechanism is broken into three steps, which resemble neural networks.
@@ -38,7 +38,7 @@ Projects created by Professor [Tony Dear](https://www.engineering.columbia.edu/f
             - As suggested, resampling is done using [numpy.random.choice](https://numpy.org/doc/stable/reference/random/generated/numpy.random.choice.html).
     - As seen in the result video, the trajectory created by the filter keeps up with the robot pretty well though the result becomes much more accurate when there is more landmarks for the robot to receive more information from in the workspace. Thus, it is shown that the filter works perfectly when the robot goes right in between landmarks.
     
-**5. Learning Inverse Kinematics (Neural Network)**
+5. Learning Inverse Kinematics (Neural Network)
     - High level concept of Inverse Kinematics can be found [here](https://en.wikipedia.org/wiki/Inverse_kinematics)
     - In order to calculate the corret inverse kinematics of a robot, the robot's foward kinematics must be calculated first. 
         - Learn more about [Forward Kinematics](https://en.wikipedia.org/wiki/Forward_kinematics).
