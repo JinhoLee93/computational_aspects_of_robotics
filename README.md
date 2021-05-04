@@ -40,4 +40,5 @@ Projects created by Professor [Tony Dear](https://www.engineering.columbia.edu/f
     
 5. Learning Inverse Kinematics (Neural Network)
     - High level concept of Inverse Kinematics can be found [here](https://en.wikipedia.org/wiki/Inverse_kinematics)
-    - In order to calculate the corret inverse kinematics of a robot, the robot's foward kinematics must be calculated first. Learn more about [Forward Kinematics](https://en.wikipedia.org/wiki/Forward_kinematics)
+    - In order to calculate the corret inverse kinematics of a robot, the robot's foward kinematics must be calculated first. 
+        - Learn more about [Forward Kinematics](https://en.wikipedia.org/wiki/Forward_kinematics).
