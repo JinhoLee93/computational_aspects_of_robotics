@@ -47,4 +47,4 @@ Projects created by Professor [Tony Dear](https://www.engineering.columbia.edu/f
         - Prepare 1000 random samples to train a neural network with
         - Create a neural network using [Keras](https://www.tensorflow.org/tutorials/keras/regression#a_dnn_regression)
         - Predict the end effector position with the trained neural network.
-    - A simple network would produce these [error and loss]() and this [trajectory]()
+    - A simple network would produce these [losses](https://github.com/JinhoLee93/Robotics/blob/main/learning_inverse_kinematics/losses.png) and this [trajectory](https://github.com/JinhoLee93/Robotics/blob/main/learning_inverse_kinematics/trajectories.png)
