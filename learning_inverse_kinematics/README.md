@@ -6,4 +6,4 @@ forward_kinematics.py
 
 inverse_kinematics.py
 - Furthermore, the user is able to even calculate the [Jacobian matrix](https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant) for the angular and linear velocities of their robot's configuration.
-- The user can choose either underconstrained or overconstrained manipulator configurations to calculate since they require different [pseudoinverse of the Jacobian](https://en.wikipedia.org/wiki/Moore%E2%80%93Penrose_inverse).
+- The user can choose either underconstrained or overconstrained manipulator configurations to calculate according to the form of the Jacobian matrix since they require different [pseudoinverse of the Jacobian](https://en.wikipedia.org/wiki/Moore%E2%80%93Penrose_inverse).
