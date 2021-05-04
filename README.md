@@ -43,3 +43,8 @@ Projects created by Professor [Tony Dear](https://www.engineering.columbia.edu/f
     - In order to calculate the corret inverse kinematics of a robot, the robot's foward kinematics must be calculated first. 
         - Learn more about [Forward Kinematics](https://en.wikipedia.org/wiki/Forward_kinematics).
         - And I made this cool [program](https://github.com/JinhoLee93/Robotics/blob/main/learning_inverse_kinematics/forward_kinematics.py) that calculates forward kinematics for you and [this](https://github.com/JinhoLee93/Robotics/blob/main/learning_inverse_kinematics/inverse_kinematics.py) for inverse kinematics.
+    - Steps
+        - Prepare 1000 random samples to train a neural network with
+        - Create a neural network using [Keras](https://www.tensorflow.org/tutorials/keras/regression#a_dnn_regression)
+        - Predict the end effector position with the trained neural network.
+    - A simple network would produce these [error and loss]() and this [trajectory]()
