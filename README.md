@@ -39,3 +39,5 @@ Projects created by Professor [Tony Dear](https://www.engineering.columbia.edu/f
     - As seen in the result video, the trajectory created by the filter keeps up with the robot pretty well though the result becomes much more accurate when there is more landmarks for the robot to receive more information from in the workspace. Thus, it is shown that the filter works perfectly when the robot goes right in between landmarks.
     
 5. Learning Inverse Kinematics (Neural Network)
+    - High level concept of Inverse Kinematics can be found [here](https://en.wikipedia.org/wiki/Inverse_kinematics)
+    - In order to calculate the corret inverse kinematics of a robot, the robot's foward kinematics must be calculated first. Learn more about [Forward Kinematics](https://en.wikipedia.org/wiki/Forward_kinematics)
