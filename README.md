@@ -38,4 +38,4 @@ Projects created by Professor [Tony Dear](https://www.engineering.columbia.edu/f
             - As suggested, resampling is done using numpy.random.choice.
     - As seen in the result video, the trajectory created by the filter keeps up with the robot pretty well though the result becomes much more accurate when there is more landmarks for the robot to receive more information from in the workspace. Thus, it is shown that the filter works perfectly when the robot goes right in between landmarks.
     
-5. Learn and Predict Inverse Kinematics (Neural Network)
+5. Learning Inverse Kinematics (Neural Network)
