@@ -33,6 +33,9 @@ Projects created by Professor [Tony Dear](https://www.engineering.columbia.edu/f
             - This step is built around [Kalman Filter](https://en.wikipedia.org/wiki/Kalman_filter)
         - Update
             - Using the prediction already calculated and the information the robot receives from the landmarks around it. There is a huge spike on error meter at the beginning, but this behavior is expected since, first, the robot doesn't have any prior information about where it is, and, second, it the landmark information is highly limited.
-        - Resample
-            - 
+        - Resample (Selective Process)
+            - The samples are resampled only when the magnitude of the particle weights is small enough 
+            - As suggested, resampling is done using numpy.random.choice.
+    - As seen in the result video, the trajectory created by the filter keeps up with the robot pretty well though the result becomes much more accurate when there is more landmarks for the robot to receive more information from in the workspace. Thus, it is shown that the filter works perfectly when the robot goes right in between landmarks.
+    
 5. Learn and Predict Inverse Kinematics (Neural Network)
