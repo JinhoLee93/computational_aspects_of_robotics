@@ -1,3 +1,14 @@
+from sympy import *
+import numpy as np
+from numpy.linalg import matrix_rank
+import math
+import matplotlib.pyplot as plt
+import sys
+import random
+import tensorflow as tf
+from tensorflow import keras
+from tensorflow.keras import layers
+
 def plot_loss(history):
   plt.plot(history.history['loss'], label='loss')
   plt.plot(history.history['val_loss'], label='val_loss')
@@ -5,7 +16,7 @@ def plot_loss(history):
   plt.ylabel('Error [MPG]')
   plt.legend()
   plt.grid(True)
-  plt.savefig('loss.png')
+  plt.savefig('losses.png')
 
 
 
@@ -91,7 +102,7 @@ def predict(m):
     ax.plot(res[:, 0], res[:, 1], res[:, 2])
 
     plt.show()
-    plt.savefig('trajectory.png')
+    plt.savefig('trajectories.png')
 
 
 if __name__ == '__main__':
