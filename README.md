@@ -1,4 +1,6 @@
 # Computational Aspects of Robotics
+Written by Jinho Lee (jl5027@columbia.edu)
+
 Projects created by Professor [Tony Dear](https://www.engineering.columbia.edu/faculty/tony-dear) for Computational Aspects of Robotics
 
 1. Path Planning (Bug1 and Bug2)
