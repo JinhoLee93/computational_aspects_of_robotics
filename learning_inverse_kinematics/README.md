@@ -1,6 +1,6 @@
 # Learning Inverse Kinematics
 
-All written by Jinho Lee (jl5027@columbia.edu)
+Written by Jinho Lee (jl5027@columbia.edu)
 
 forward_kinematics.py
 - Lets the user easily calculate their robot's forward kinematics even with random variables
