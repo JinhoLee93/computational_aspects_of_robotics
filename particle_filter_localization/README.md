@@ -2,6 +2,14 @@
 
 Written by Jinho Lee (jl5027@columbia.edu)
 
+particle_filter_localization.py
+- In this project, only parts to be finished were
+  - def predict()
+  - def update()
+  - def resample()
+
+- 
+
 localzation.png
 - Shows how well the particles converge to the actual robot path.
 
