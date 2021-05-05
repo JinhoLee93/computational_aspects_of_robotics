@@ -3,7 +3,7 @@
 Written by Jinho Lee (jl5027@columbia.edu)
 
 particle_filter_localization.py
-- In this project, only parts to be finished were
+- For this project, only parts that I had to finish were
   - def predict()
   - def update()
   - def resample()
