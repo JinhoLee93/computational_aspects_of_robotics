@@ -1,3 +1,5 @@
+# Written by Jinho Lee (jl5027@columbia.edu)
+
 from sympy import *
 import numpy as np
 from numpy.linalg import matrix_rank
