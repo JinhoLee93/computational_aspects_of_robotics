@@ -16,6 +16,9 @@ offline_bug2.py
     - def is_hit() helps determine the points where the robot first hits each obstacles and, with the coordinates of the obstacles, the leave points can also be defined as easily. 
  - Navigation for Bug2 is more like brute force since the search itself is half exhaustive (circumnavigation) and half object-following (m-line).
     - Which way the robot takes when it's faced with each obstacle is totally [random](https://numpy.org/doc/stable/reference/random/generated/numpy.random.rand.html).
-    - To calculate the correct path around the obstacles, [the quadratic equation](https://en.wikipedia.org/wiki/Quadratic_formula) and basic knowledge about geometric characteristics of sphere.
+    - To calculate the correct path around the obstacles, [the quadratic equation](https://en.wikipedia.org/wiki/Quadratic_formula) and basic knowledge about geometric properties of sphere.
+    
+    - Everything is drawn with [Matplotlib](https://matplotlib.org/stable/index.html)
    
  - Finishes the path by reaching the goal from the last leave point.
+ - Results show images like [this](https://github.com/JinhoLee93/Robotics/blob/main/path_planning/bug2.png)
