@@ -9,13 +9,13 @@ offline_bug2.py
 - The robot travels from the start point to the goal via circumnavigating the circular obstacles. 
 
 - def bug2()
- - Every bug algorithm in this case where every detail, such as coordinates, and the start and the end points, of the m-line and the obstacles is evident is extremely simple. 
- - One of the most important facets of Bug2 is the m-line which the robot follows along until it meets the goal. 
- - The m-line is defined as x axis
+    - Every bug algorithm in this case where every detail, such as coordinates, and the start and the end points, of the m-line and the obstacles is evident is extremely simple. 
+    - One of the most important facets of Bug2 is the m-line which the robot follows along until it meets the goal. 
+    - The m-line is defined as x axis
  - Since all the obstacles are spheres, the path can be easily defined if each hit and leave point is well found.
-  - def is_hit() helps determine the points where the robot first hits each obstacles and, with the coordinates of the obstacles, the leave points can also be defined as easily. 
-  - Navigation for Bug2 is more like brute force since the search itself is half exhaustive (circumnavigation) and half object-following (m-line).
-   - Which way the robot takes when it's faced with each obstacle is totally [random](https://numpy.org/doc/stable/reference/random/generated/numpy.random.rand.html).
-   - To calculate the correct path around the obstacles, [the quadratic equation](https://en.wikipedia.org/wiki/Quadratic_formula) and basic knowledge about geometric characteristics of sphere.
+    - def is_hit() helps determine the points where the robot first hits each obstacles and, with the coordinates of the obstacles, the leave points can also be defined as easily. 
+ - Navigation for Bug2 is more like brute force since the search itself is half exhaustive (circumnavigation) and half object-following (m-line).
+    - Which way the robot takes when it's faced with each obstacle is totally [random](https://numpy.org/doc/stable/reference/random/generated/numpy.random.rand.html).
+    - To calculate the correct path around the obstacles, [the quadratic equation](https://en.wikipedia.org/wiki/Quadratic_formula) and basic knowledge about geometric characteristics of sphere.
    
  - Finishes the path by reaching the goal from the last leave point.
