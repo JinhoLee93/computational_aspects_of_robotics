@@ -22,3 +22,11 @@ offline_bug2.py
    
  - Finishes the path by reaching the goal from the last leave point.
  - Results show images like [this](https://github.com/JinhoLee93/Robotics/blob/main/path_planning/bug2.png)
+
+Sphere_space_navigation.py
+- The robot finds its goal based on two combined [potential functions](https://en.wikipedia.org/wiki/Scalar_potential) (Physics) of the spherical environment. 
+- ![alt text](https://en.wikipedia.org/wiki/File:Gravity_field_near_earth.gif)
+    - Attractive Potential
+        - Intentionally gives the goal low potential so that the robot naturally falls in the goal.
+    - Repulsive Potential 
+        - Gives the obstacles high enough potential (here infinity) to push off the robot from the obstacles.
