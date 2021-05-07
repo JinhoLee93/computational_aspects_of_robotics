@@ -44,7 +44,7 @@ def plot(robot, input, goal):
     ax.set_ylim((-10, 10))
 
     # I added threshold to determine if the robot reaches the goal since
-    # it seems like the gradient never gets to quite.
+    # it seems like the gradient never gets to 0.
     threshold = 0.05
     step = 5
     x, y = symbols("x y")
