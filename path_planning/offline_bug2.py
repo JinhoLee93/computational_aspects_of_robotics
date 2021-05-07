@@ -1,3 +1,4 @@
+# Written by Jinho Lee (jl5027)
 
 #!/usr/bin/env python
 import sys
