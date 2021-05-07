@@ -4,7 +4,7 @@ Written by Jinho Lee (jl5027@columbia.edu)
 
 offline_bug2.py
 
-**Bug1 and Bug2 algorithms are very similar. They only vary in a few lines of code. Thus, the focus here is Bug2.**
+**([Bug1](https://github.com/JinhoLee93/Robotics/blob/main/path_planning/bug1.png) and Bug2 algorithms are very similar. They only vary in a few lines of code. Thus, the focus here is Bug2.)**
 
 - The robot travels from the start point to the goal via circumnavigating the circular obstacles. 
 
