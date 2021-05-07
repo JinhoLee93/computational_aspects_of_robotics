@@ -25,7 +25,7 @@ offline_bug2.py
 
 Sphere_space_navigation.py
 - The robot finds its goal based on two combined [potential functions](https://en.wikipedia.org/wiki/Scalar_potential) (Physics) of the spherical environment. 
-- ![alt text](https://en.wikipedia.org/wiki/File:Gravity_field_near_earth.gif)
+- ![Alt Text](https://en.wikipedia.org/wiki/Scalar_potential#/media/File:Gravity_field_near_earth.gif)
     - Attractive Potential
         - Intentionally gives the goal low potential so that the robot naturally falls in the goal.
     - Repulsive Potential 
