@@ -12,7 +12,7 @@ particle_filter_localization.py
     - Updates the robot's likelihood weight using the robot's predicted range and bearing
 
   - def resample()
-    - Particles get resampled by [numpy.random.choice](https://numpy.org/doc/stable/reference/random/generated/numpy.random.choice.html) since random.ch
+    - Particles get resampled by [numpy.random.choice](https://numpy.org/doc/stable/reference/random/generated/numpy.random.choice.html) 
 
 localzation.png
 - Shows how well the particles converge to the actual robot path.
