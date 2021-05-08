@@ -25,3 +25,4 @@ non_euclidean_prm.py
  
 Sneak peek of the result
 - ![four_obstacles](https://user-images.githubusercontent.com/60580427/117529081-7e4ef080-b010-11eb-81c0-5215e1a488ef.png)
+<img src="https://user-images.githubusercontent.com/60580427/117529081-7e4ef080-b010-11eb-81c0-5215e1a488ef.png" width="48">
