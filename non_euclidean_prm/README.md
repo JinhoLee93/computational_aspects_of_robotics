@@ -21,7 +21,8 @@ non_euclidean_prm.py
   - Since the sample points were in a toroid workspace, the coordinates of the sample points must be converted into Euclidean so that they fit in the robot's C-Space.
   - Then it connects the points without collision detection.
   - Here, incremental collision detection is deployed so that every edge can be collision-free.
-  - Then, it lets the edges be added to the C-Space. 
+  - The algorithm lets the edges be added to the C-Space. 
+  - The robot chooses and follows the shortest path.
  
 Sneak peek at the results
  
