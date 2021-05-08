@@ -24,4 +24,5 @@ non_euclidean_prm.py
   - Then, it lets the edges be added to the C-Space. 
  
 Sneak peek at the results
-- <img src="https://user-images.githubusercontent.com/60580427/117529081-7e4ef080-b010-11eb-81c0-5215e1a488ef.png" width="50%" height="50%">
+ 
+ <img src="https://user-images.githubusercontent.com/60580427/117529081-7e4ef080-b010-11eb-81c0-5215e1a488ef.png" width="50%" height="50%">
