@@ -1,6 +1,5 @@
-# Jinho Lee (jl5027)
-# Professor Tony Dear
-# COMS4733 HW2 P4.2
+# Essential plot functions written by Professor Tony Dear
+# Brushfire written by Jinho Lee (jl5027@columbia.edu)
 # gvd.py
 
 #!/usr/bin/env python
