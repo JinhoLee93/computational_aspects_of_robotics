@@ -32,4 +32,8 @@ Sphere_space_navigation.py
     - Repulsive Potential 
         - Gives the obstacles high enough potential (here infinity) to push off the robot from the obstacles.
     - In def phi(), those two potentials are dealt with so that [sympy](https://www.sympy.org/en/index.html) can get the gradients between the goal and the robot's current position.
+    - You do have to worry about local minima when you're using gradient descent for path-planning. 
+        - Two Exemplary Cases
+            - When the robot is stuck in places where changes in gradients become close to 0.
+            - When the robot is stuck between two or more obstacles and the stuck point is close enough to the goal in distance.
     - Uses the gradients for the robot to reach the goal.
