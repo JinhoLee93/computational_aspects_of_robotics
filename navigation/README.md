@@ -14,6 +14,6 @@ brushfire.py
 gvd.py
 - Essential plot functions were written by [Professor Tony Dear](https://www.engineering.columbia.edu/faculty/tony-dear)
 - Creates GVD like the second image above. The results always vary by environment.
-- Illustrated below are environments with different configurations.
+- Illustrated results below are environments with different configurations.
 - <img width="291" alt="p4 2_world3" src="https://user-images.githubusercontent.com/60580427/117533081-b876bd00-b025-11eb-9bcc-f503562216b2.png">
 - <img width="296" alt="p4 2_world4" src="https://user-images.githubusercontent.com/60580427/117533085-ba408080-b025-11eb-850c-edb59fdd5d73.png">
