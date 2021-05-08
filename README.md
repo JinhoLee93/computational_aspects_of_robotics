@@ -29,7 +29,7 @@ Written by Jinho Lee (jl5027@columbia.edu)
 
 4. Particle Filter Localization
     - High level description of Particle Filter can be found [here](https://en.wikipedia.org/wiki/Particle_filter) and that of Robotics Localization [here](https://en.wikipedia.org/wiki/Robot_navigation)
-    - The skeleton code was taken from [PythonRobotics](https://pythonrobotics.readthedocs.io/en/latest/modules/localization.html#particle-filter-localization)
+    - The skeleton code was inspired by [PythonRobotics](https://pythonrobotics.readthedocs.io/en/latest/modules/localization.html#particle-filter-localization) and written by Professor [Tony Dear](https://www.engineering.columbia.edu/faculty/tony-dear)
     - Filter mechanism is broken into three steps, which resemble neural networks.
         - Predict
             - This step is built around [Kalman Filter](https://en.wikipedia.org/wiki/Kalman_filter)
