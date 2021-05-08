@@ -1,7 +1,4 @@
-# Jinho Lee (jl5027)
-# Professor Tony Dear
-# COMS4733 HW2 P4.1
-# p4.1.py
+# Written by Jinho Lee (jl5027@columbia.edu)
 
 #!/usr/bin/env python
 import sys
