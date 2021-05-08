@@ -1,7 +1,7 @@
 # Jinho Lee (jl5027)
 # Professor Tony Dear
 # COMS4733 HW2 P4.2
-# p4.2.py
+# gvd.py
 
 #!/usr/bin/env python
 import sys
