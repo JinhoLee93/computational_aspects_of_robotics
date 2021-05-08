@@ -20,3 +20,8 @@ localzation.png
 errors.png
 - Each graph represents an error that occurs during the particles' convergence.
 - You can find why y error spikes at the beginning [here](https://github.com/JinhoLee93/Robotics/blob/main/README.md)
+
+[Result](https://youtu.be/ENhtw4pTTxI)
+
+Sneak Peek at the Result
+<img src="https://user-images.githubusercontent.com/60580427/117530725-c1fa2800-b019-11eb-8aa2-23fc2c9e17b6.png" width="50%" height="50%">
