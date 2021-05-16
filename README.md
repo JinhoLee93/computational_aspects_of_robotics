@@ -4,7 +4,7 @@
 Written by Jinho Lee (jl5027@columbia.edu)
 
 1. [Path Planning (Bug1 and Bug2)](https://github.com/JinhoLee93/Robotics/tree/main/path_planning)
-    - Brief introduction on the general concept of Motion Planning can be found [here](https://en.wikipedia.org/wiki/Motion_planning#:~:text=Motion%20planning%2C%20also%20path%20planning,animation%2C%20robotics%20and%20computer%20games.)
+    - Brief introduction on the general concept of Motion Planning can be found [here](https://en.wikipedia.org/wiki/Motion_planning#:~:text=Motion%20planning%2C%20also%20path%20planning,animation%2C%20robotics%20and%20computer%20games.).
     - Bug1 and Bug2 are two of the most fundamental path planning algorithms in robotics.
     - Bug1
         - Bug1 is an exhaustive saerch algorithm, meaning the robot proceeds to find the goal after it completes circumnavigating the obstacles in the environment.
@@ -14,26 +14,26 @@ Written by Jinho Lee (jl5027@columbia.edu)
         - Bug2 is "not" an exhaustive search since two distances, d_(reached) and d_(followed), inform the robot of the leave and arrive points on each obstacle.
         
 2. [Navigation (Generalized Voronoi Diagram (GVD) Construction with Brushfire)](https://github.com/JinhoLee93/Robotics/tree/main/navigation)
-    - High level concept on GVD can be found [here](https://www.cs.columbia.edu/~pblaer/projects/path_planner/)
+    - High level concept on GVD can be found [here](https://www.cs.columbia.edu/~pblaer/projects/path_planner/).
     - GVD is constructed by brushfire (also called wavefront or grassfire) algorithm. This lets you easily find the collinding boundaries between the obstacles where GVD is drawn.
     - Use gradient ascent for the robot to reache the goal following the GVD.
 
 3. [Non-Euclidean Probabilistic Roadmap (PRM)](https://github.com/JinhoLee93/Robotics/tree/main/non_euclidean_prm)
-    - Brief introduction on the PRM can be found [here](http://www.cs.columbia.edu/~allen/F15/NOTES/Probabilisticpath.pdf) 
-    - The scaffolding code was gracefully provided by [Professor Tony Dear](https://www.engineering.columbia.edu/faculty/tony-dear)
+    - Brief introduction on the PRM can be found [here](http://www.cs.columbia.edu/~allen/F15/NOTES/Probabilisticpath.pdf).
+    - The scaffolding code was gracefully provided by [Professor Tony Dear](https://www.engineering.columbia.edu/faculty/tony-dear).
     - Just like most PRMs, the PRM here works as it samples the given number of sample points and connects them.
     - The connections between the sample points **must** not collide with any obstacles. Therefore, a collision detection algorithm was deployed.
     - As collision detection takes very significant part of the PRM, on what standard the PRM detects collisions must be taken into consideration. Here, [NeareastNeighbors](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.NearestNeighbors.html) is used so that each sample point is evaluated by the number of its neighbors in the vicinity. When a collision is detected, resample the points in it.
     - Since the arm is in a toroidal space, change its toroidal coordinate into Euclidean workspace coordinate.
-    - You can find the result [here](https://www.youtube.com/watch?v=k7dJsFfELGA&ab_channel=JinhoLee)
+    - You can find the result [here](https://www.youtube.com/watch?v=k7dJsFfELGA&ab_channel=JinhoLee).
 
 4. [Particle Filter Localization](https://github.com/JinhoLee93/Robotics/tree/main/particle_filter_localization)
-    - Find the result [here](https://youtu.be/ENhtw4pTTxI)
-    - High level description of Particle Filter can be found [here](https://en.wikipedia.org/wiki/Particle_filter) and that of Robotics Localization [here](https://en.wikipedia.org/wiki/Robot_navigation)
-    - The skeleton code was inspired by [PythonRobotics](https://pythonrobotics.readthedocs.io/en/latest/modules/localization.html#particle-filter-localization) and written by [Professor Tony Dear](https://www.engineering.columbia.edu/faculty/tony-dear)
+    - Find the result [here](https://youtu.be/ENhtw4pTTxI).
+    - High level description of Particle Filter can be found [here](https://en.wikipedia.org/wiki/Particle_filter) and that of Robotics Localization [here](https://en.wikipedia.org/wiki/Robot_navigation).
+    - The skeleton code was inspired by [PythonRobotics](https://pythonrobotics.readthedocs.io/en/latest/modules/localization.html#particle-filter-localization) and written by [Professor Tony Dear](https://www.engineering.columbia.edu/faculty/tony-dear).
     - Filter mechanism is broken into three steps, which resemble neural networks.
         - Predict
-            - This step is built around [Kalman Filter](https://en.wikipedia.org/wiki/Kalman_filter)
+            - This step is built around [Kalman Filter](https://en.wikipedia.org/wiki/Kalman_filter).
         - Update
             - Using the prediction already calculated and the information the robot receives from the landmarks around it. There is a huge spike on error meter at the beginning, but this behavior is expected since, first, the robot doesn't have any prior information about where it is, and, second, it the landmark information is highly limited.
         - Resample (Selective Process)
@@ -47,7 +47,7 @@ Written by Jinho Lee (jl5027@columbia.edu)
         - Learn more about [Forward Kinematics](https://en.wikipedia.org/wiki/Forward_kinematics).
         - And I made this cool [program](https://github.com/JinhoLee93/Robotics/blob/main/learning_inverse_kinematics/forward_kinematics.py) that calculates forward kinematics for you and [this](https://github.com/JinhoLee93/Robotics/blob/main/learning_inverse_kinematics/inverse_kinematics.py) for inverse kinematics.
     - Steps
-        - Prepare 1000 random samples to train a neural network with
-        - Create a neural network using [Keras](https://www.tensorflow.org/tutorials/keras/regression#a_dnn_regression)
+        - Prepare 1000 random samples to train a neural network with.
+        - Create a neural network using [Keras](https://www.tensorflow.org/tutorials/keras/regression#a_dnn_regression).
         - Predict the end effector position with the trained neural network.
-    - A simple network with a basic optimizer would produce these [losses](https://github.com/JinhoLee93/Robotics/blob/main/learning_inverse_kinematics/losses.png) and this [trajectories](https://github.com/JinhoLee93/Robotics/blob/main/learning_inverse_kinematics/trajectories.png)
+    - A simple network with a basic optimizer would produce these [losses](https://github.com/JinhoLee93/Robotics/blob/main/learning_inverse_kinematics/losses.png) and this [trajectories](https://github.com/JinhoLee93/Robotics/blob/main/learning_inverse_kinematics/trajectories.png).
