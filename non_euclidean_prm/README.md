@@ -7,7 +7,7 @@ non_euclidean_prm.py
 - def sample_points()
   - Produces random points in free workspace between the start and the goal points. 
     - In order to do so, it needs collision detection because free workpace should not contain any obstacles.
-    - Number of obstacles is specified at the beginning as OBSTACLES
+    - Number of obstacles is specified at the beginning as OBSTACLES.
   - Collision detection is done by detect_collision function provided.
   - Once the point is cleared of a hinderance, add it to the workpace.
   - Repeat this process for the determined number of samples (N_SAMPLE).
