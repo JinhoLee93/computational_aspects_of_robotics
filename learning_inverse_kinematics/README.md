@@ -3,8 +3,8 @@
 Written by Jinho Lee (jl5027@columbia.edu)
 
 forward_kinematics.py
-- Lets the user easily calculate their robot's forward kinematics even with random variables
-- All matrix calculations are arranged in accordance with [Denavit-Hartenberg Parameters](https://en.wikipedia.org/wiki/Denavit%E2%80%93Hartenberg_parameters)
+- Lets the user easily calculate their robot's forward kinematics even with random variables.
+- All matrix calculations are arranged in accordance with [Denavit-Hartenberg Parameters](https://en.wikipedia.org/wiki/Denavit%E2%80%93Hartenberg_parameters).
 
 inverse_kinematics.py
 - Lets the user easily calculate their robot's inverse kinematics with their robot's angular and linear velocities that are calculated with forward_kinematics.py
@@ -13,7 +13,7 @@ inverse_kinematics.py
 
 learning_inverse_kinematics.py
 - def dataset()
-  - We're starting with creating 1000 random samples to train a neural network, using the given Forward Kinematics (FK)
+  - We're starting with creating 1000 random samples to train a neural network, using the given Forward Kinematics (FK).
   
 - def model()
   - Creates [keras](https://www.tensorflow.org/api_docs/python/tf/keras/Sequential) model.
@@ -21,7 +21,7 @@ learning_inverse_kinematics.py
   - Deploys the basic Adam optimizer and uses [MeanSquaredError()](https://www.tensorflow.org/api_docs/python/tf/keras/losses/MeanSquaredError).
   
 - def fit()
-  - Trains the network and plot the losses
+  - Trains the network and plot the losses.
  
 - def predict()
   - Calls [predict()](https://www.tensorflow.org/api_docs/python/tf/keras/Model#predict) and enters the results to the given FK.
