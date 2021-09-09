@@ -2,7 +2,7 @@
 
 Written by Jinho Lee (jl5027@columbia.edu)
 
-forward_kinematics.py
+[forward_kinematics.py](https://github.com/JinhoLee93/Robotics/blob/main/learning_inverse_kinematics/forward_kinematics.py)
 - Lets the user easily calculate their robot's forward kinematics even with random variables.
 - All matrix calculations are arranged in accordance with [Denavit-Hartenberg Parameters](https://en.wikipedia.org/wiki/Denavit%E2%80%93Hartenberg_parameters).
 
