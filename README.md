@@ -16,7 +16,7 @@ Written by Jinho Lee (jl5027@columbia.edu)
 2. [Navigation (Generalized Voronoi Diagram (GVD) Construction with Brushfire)](https://github.com/JinhoLee93/Robotics/tree/main/navigation)
     - High level concept on GVD can be found [here](https://www.cs.columbia.edu/~pblaer/projects/path_planner/).
     - GVD is constructed by brushfire (also called wavefront or grassfire) algorithm. This lets you easily find the collinding boundaries between the obstacles where GVD is drawn.
-    - Use gradient ascent for the robot to reache the goal following the GVD.
+    - Use gradient ascent for the robot to reach the goal following the GVD.
 
 3. [Non-Euclidean Probabilistic Roadmap (PRM)](https://github.com/JinhoLee93/Robotics/tree/main/non_euclidean_prm)
     - Brief introduction on the PRM can be found [here](http://www.cs.columbia.edu/~allen/F15/NOTES/Probabilisticpath.pdf).
