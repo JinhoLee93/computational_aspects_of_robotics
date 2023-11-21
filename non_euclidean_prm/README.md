@@ -3,7 +3,7 @@
 You can find the result [here](https://www.youtube.com/watch?v=k7dJsFfELGA&ab_channel=JinhoLee).
 
 non_euclidean_prm.py
-- **Scaffolding code gracefully taken from [the PythonRobotics project](https://pythonrobotics.readthedocs.io/en/latest/). Thus, Only two parts of the code has been written by Jinho Lee (jl5027@columbia.edu)**
+- **Scaffolding code gracefully taken from [the PythonRobotics project](https://pythonrobotics.readthedocs.io/en/latest/). Thus, Only two parts of the code have been written by Jinho Lee (jl5027@columbia.edu)**
 - def sample_points()
   - Produces random points in free workspace between the start and the goal points. 
     - In order to do so, it needs collision detection because free workpace should not contain any obstacles.
