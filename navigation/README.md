@@ -2,6 +2,8 @@
 
 Written by Jinho Lee (jl5027@columbia.edu)
 
+Feb 6, 2021 ~ Feb 23, 2021
+
 brushfire.py
 - Numbers signify the distance from a point and the obstacle from which the point is.
 - Numbers increase from the obstacles including the boundaries of the environment like brushfire until they meet numbers from the other obstacles. 
